@@ -1,0 +1,21 @@
+@prefix ontolidar: <http://vocab.ieawindtask32.org/wind-lidar-ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ontolidar:
+  skos:prefLabel "IEA Wind Task 32 Wind Lidar Ontology"@en ;
+  a skos:ConceptScheme .
+
+ontolidar:WindfieldReconstruction
+  skos:prefLabel "气流（风）流场重构"@cn, "Windfeld Rekonstruktion"@de, "Reconstrucción del campo de vientos"@es, "Ricostruzione del campo di vento"@it, "Windfield Reconstruction"@en ;
+  a skos:Concept ;
+  skos:narrower ontolidar:VelocityAzimuthDisplay .
+
+ontolidar:VelocityAzimuthDisplay
+  skos:prefLabel "Muestreo de velocidad en azimut"@es, "Campionamento di velocità in azimut"@it, "Velocity azimuth display"@en, "VAD测量法"@cn ;
+  skos:definition "Un particolare metodo di analisi dati di un lidar a geometria conica. Data una scansione completa del cono ad una specifica altezza, i punti di misurazione contigui l'uno all'altro nello spazio vengono combinati secondo metodi statistici di interpolazione per ricostruire la velocità del vento."@it, "VAD是一种测风激光雷达的测量方法，通过倒圆锥形的扫描方式，雷达可以对许多间隔很近的方位角点进行采样，然后使用统计拟合方法将数据用于推算每个高度的风速。"@cn, "VAD es un método de análisis de datos provenientes de un escaneo de geometría cónica en el que varios puntos azimutales estrechamente espaciados son muestreados por el lidar. Dichos datos se utilizan para estimar la velocidad del viento a una determinada altura utilizando métodos de ajuste estadísticos."@es, "VAD is a method of analyzing data from a complete conical scan whereby many closely spaced azimuthal points may be sampled by the lidar, and the data are used to estimate the wind speed at each height using a statistical fitting method."@en ;
+  skos:editorialNote "The VAD method is described in Lhermitte (1966) and Browning and Wexler (1968)."@en, "El método VAD se describe en Lhermitte (1996) y en Browning and Wexler (1968)"@es, "Il metodo VAD è descritto in Lhermitte (1966) e Bowning e Wexler (1968)."@it ;
+  a skos:Concept ;
+  skos:altLabel "VAD"@en, "VOOI"@en ;
+  skos:inScheme ontolidar: ;
+  skos:broader ontolidar:WindfieldReconstruction .
+
