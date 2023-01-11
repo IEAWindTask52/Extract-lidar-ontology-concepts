@@ -62,6 +62,8 @@ def get_rdf_concept(path, lang, fmt):
     from rdfpandas.graph import to_dataframe
     import pandas as pd
     import rdflib
+    import sys
+    sys.path
 
     g = rdflib.Graph()
     g.parse(path, format = fmt)
@@ -83,15 +85,15 @@ def get_rdf_concept(path, lang, fmt):
     return concept
 
 if __name__ == "__main__":
-    from fun.getConcept import get_json_concept
-    from fun.getConcept import get_rdf_concept
+    from getConcept import get_json_concept
+    from getConcept import get_rdf_concept
 
-    path = r'./Ontology_Concepts/VAD_da'
+    path = r'../Ontology_Concepts/VAD_da'
     lang = "en"
     concept_json = get_json_concept(path, lang)
 
 
-    path = r'./Ontology_Concepts/vad.ttl'
+    path = r'../Ontology_Concepts/vad.ttl'
     lang = "en"
     fmt = 'ttl'
     concept_rdf = get_rdf_concept(path, lang, fmt)
