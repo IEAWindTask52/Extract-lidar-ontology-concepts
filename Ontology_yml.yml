@@ -1,0 +1,117 @@
+# Ontology group.
+###
+# Example of a standardised file for lidar simulator inputs. 
+# Do not change the names of the definitions nor the structure of the file. Just change the concepts and the fields of the concepts you want to access to. 
+# Users can find a yaml format template in the repository '/Main/Template_yaml_inputs_file.yml'
+###
+
+# (*) --> Value taken from the ontology
+
+
+# DIRECTORY:------------------------------------------------------
+
+Main directory: '.' # Directory where you want to save your ontology  concepts
+
+# Lidar values. Modules and components parameters: ------------------------------------------------------
+
+Components:
+  Scanning strategy:
+  #Scanner module: 
+    Scanner module:
+        Definition: ''
+        Preferred label: ''
+        Alternative label: ''
+
+        Scanning sample rate: 
+            Value: 50
+            Units: Hz
+            Definition: ''
+            Preferred label: ''
+            Alternative label: ''
+
+        # Lidar range and pointing parameters 
+        Opening angle: 
+            Value: [5]
+            Units: degrees
+            Definition: ''
+            Preferred label: 'Elevation angle'  # (*)
+            Alternative label: 'Elevation' # (*)
+                    
+        Azimuth: 
+            Value: [0:359]
+            Units: degrees
+            Definition: ''
+            Preferred label: 'Azimtuh angle' # (*)
+            Alternative label: 'Azimuth' # (*)
+        Focus distance: 
+            Value: [500]
+            Units: meters
+            Definition: ''
+            Preferred label: '' # (*)
+            Alternative label: '' # (*)
+
+# Photonics module  
+
+    Photonics module:
+        Definition: ''
+        Preferred label: ''
+        Alternative label: ''
+        
+        Optical amplifier:
+            Optical amplifier BW: 12.5e+12 # [Hz] Bandwidth optical amplifier (Hz)
+            Optical amplifier noise figure: 3.4 #metadata/NoiseFigure.csv  #6# [dB] Relative Directory to where Noise figure data is. Either a well-known value or the directory where the file is.   
+            Optical amplifier gain: 30 # [dB] Optical amplifier gain
+            Power interval: [0,1,.001]       # [mW]    
+            Definition: ''
+            Preferred label: ''
+            Alternative label: ''
+        
+        
+        Optical amplifier bandwidth:
+    
+---
+# Device notes:
+Device:
+  Manufacturer: ''
+  Model: ''
+  Technology: ''
+  Chassis number: ''
+  Definition: ''
+  Preferred label: ''
+  Alternative label: ''
+
+---  
+
+# Data processing methods: 
+Data processing:
+    Windfield reconstruction model:
+      Name: WFR_Yaml
+
+    Filtering strategy:
+    
+      Raw data:
+        Method: ''
+        Date: ''
+        Operator: ''
+        Format: ''
+        Comments: ''
+        
+      Preprocessed data:
+        Method: ''
+        Date: ''
+        Operator: ''
+        Format: ''
+        Comments: ''
+      Processed data:
+        Method: ''
+        Date: ''
+        Operator: ''
+        Format: ''
+        Comments: ''
+      
+
+---
+# Data processing:-----------------------------------------------------
+Probe Volume:
+  Name: 'Probe_Yaml'
+  Extinction coefficient: 0.085
