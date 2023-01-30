@@ -2,7 +2,6 @@
 ###
 # Example of a standardised file for lidar simulator inputs. 
 # Do not change the names of the definitions nor the structure of the file. Just change the concepts and the fields of the concepts you want to access to. 
-# Users can find a yaml format template in the repository '/Main/Template_yaml_inputs_file.yml'
 ###
 
 # (*) --> Value taken from the ontology
@@ -10,7 +9,7 @@
 
 # DIRECTORY:------------------------------------------------------
 
-Main directory: '.' # Directory where you want to save your ontology  concepts
+Main directory: '.' # Directory where your downloaded ontology concepts are stored
 
 # Lidar values. Modules and components parameters: ------------------------------------------------------
 
