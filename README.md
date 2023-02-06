@@ -37,7 +37,7 @@ An input for lidar and wind modelling simulations.
 - [eWind Lidar](https://github.com/e-WindLidar)
 - Ontology: "Formal machine-readable specification of a conceptual model in which concepts, properties, relationships, functions, constraints and axioms are all explicitly defined" [1]
 
-Methodology:
+## Methodology:
 - [Google Sheets](https://docs.google.com/spreadsheets/d/1rC2bugsJzRpuINqbVKR7GO1xNHPvzUvrKEz-75MNdXY/edit#gid=1744776504): an excel sheet is used as input for the ontology. This format allows easy implementation and maintenance of the ontology
 - [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf): The data contained in the Google Sheet is transformed into a Resource Description Framework (RDF) format by using shee2rdf. RDF allows to digitise and handle knowledge organisation systems in a machine-readable format. 
 - ontostack: a DTU Wind and Energy Systems instance of ontostack is used to serve the lidar ontology.
