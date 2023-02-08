@@ -77,6 +77,7 @@ If you wish to:
 - [Add a new a concept to the IEA Wind Task 52 Wind Lidar Ontology](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/issues/new?assignees=&labels=documentation&template=add-a-concept-to-the-iea-wind-task52-wind-lidar-ontology.md&title=)
 - [Suggest an update in an existing concept of the IEA Wind Task52 Wind Lidar Ontology](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/issues/new?assignees=&labels=documentation&template=suggest-an-update-in-an-existing-concept-of-the-iea-wind-task52-wind-lidar-ontology.md&title=)
 - Seek for support: please contact the authors
+- Participate in IEA Wind Task52 
 
 ## License
 This work is licensed under **[XXX](XXX)**
