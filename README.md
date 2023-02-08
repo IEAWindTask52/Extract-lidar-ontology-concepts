@@ -90,8 +90,11 @@ This work is licensed under **[XXX](XXX)**
 
 
 # To Dos: 
-1) Show images in jupyter notebook [##### 100%]
-2) Write Readme.md as instruction [### 60%]
-3) update license
-4) Find a host options github + binder / github + JupyterHub / github + ...
-5) Issue/pull request template [#### 80%]
+- [ ] Show images in jupyter notebook
+- [ ] Write Readme.md as instruction [### 60%]
+- [ ] update license
+- [ ] Find a host options github + binder / github + JupyterHub / github + ...
+- [ ] Issue/pull request template [#### 80%]
+- [ ] Small intro
+- [ ] Demo section
+- [ ] Outlook section 
