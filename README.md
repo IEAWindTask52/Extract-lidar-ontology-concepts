@@ -72,9 +72,9 @@ The methodology followed is based on the tools developed by [Fair Data Collectiv
 Contributions are very welcome!
 If you wish to:
 - Colaborate: please contact the authors
-- Report issues or enhance the code: post an [issue](https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart)(ARE WE INCLUDING A TEMPLATE FOR ISSUES??) or make a [pull request](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request)
 - Seek for support: please contact the authors
 - [Add a new a concept to the IEA Wind Task 52 Wind Lidar Ontology](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/issues/new?assignees=&labels=documentation&template=add-a-concept-to-the-iea-wind-task52-wind-lidar-ontology.md&title=)
+- [Suggest an update in an existing concept of the IEA Wind Task52 Wind Lidar Ontology](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/issues/new?assignees=&labels=documentation&template=suggest-an-update-in-an-existing-concept-of-the-iea-wind-task52-wind-lidar-ontology.md&title=)
 
 ## License
 This work is licensed under **[XXX](XXX)**
