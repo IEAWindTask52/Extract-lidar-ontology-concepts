@@ -5,11 +5,11 @@ This repository is part of the article...
 
 ### Introduction:
 
-An ontology defines a common vocabulary within a domain, providing a means to share information in the domain, and includes machine-interpretable definitions of fundamental concepts and the relations among them. To tackle the problems related to data digitalization, recently some global initiatives focussed on developing standardization tools. A global initiative project e-WindLidar focused on development of wind lidar community based tools and data standards, and publish a lidar data form to make them FAIR, i.e. Findable, Accessible, Interoperable and Reusable \cite{ref-Vasiljevi}. IEA Task 52 (former Task 32) bringing together researchers and industry stakeholders to collaborate on the standardization, research and development, and knowledge exchange of wind lidar. 
+An ontology defines a common vocabulary within a domain, providing a means to share information in the domain, and includes machine-interpretable definitions of fundamental concepts and the relations among them. To tackle the problems related to data digitalization, recently some global initiatives focussed on developing standardization tools. A global initiative project e-WindLidar focused on development of wind lidar community based tools and data standards, and publish a lidar data form to make them FAIR, i.e. Findable, Accessible, Interoperable and Reusable \cite{ref-Vasiljevi}. IEA Wind Task 52 (former IEA Wind Task 32) bringing together researchers and industry stakeholders to collaborate on the standardization, research and development, and knowledge exchange of wind lidar. 
 
-Within the IEA Task 52, an open-source ontology has been developed with the aim of establishing an industry-wide consensus on wind lidar concepts and terminology. This repository provides an demo for accessing the developed ontology along with the source code. 
+Within the IEA Wind Task 52, an open-source ontology has been developed with the aim of establishing an industry-wide consensus on wind lidar concepts and terminology. This repository provides an demo for accessing the developed ontology along with the source code. 
 
-:link: The lidar ontology is available [here](https://data.windenergy.dtu.dk/ontologies/view/ontolidar/en/).
+:link: The IEA Wind Task 52 Wind Lidar Ontology is available [here](https://data.windenergy.dtu.dk/ontologies/view/ontolidar/en/).
 
 
 ### Objectives
@@ -44,7 +44,7 @@ The methodology followed is based on the tools developed by [Fair Data Collectiv
 
 - [GoogleSheets](https://docs.google.com/spreadsheets/d/1rC2bugsJzRpuINqbVKR7GO1xNHPvzUvrKEz-75MNdXY/edit#gid=1744776504): An excel sheet is used as input for the ontology. This format allows easy implementation and maintenance of the ontology.
 - [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf): The data contained in the Google Sheet is transformed into a Resource Description Framework (RDF) format by using shee2rdf. RDF allows to digitise and handle knowledge organisation systems in a machine-readable format.
-- ontostack: a DTU Wind and Energy Systems instance of ontostack is used to serve the lidar ontology. 
+- [ontostack](https://github.com/fair-data-collective/sheet2rdf): a DTU Wind and Energy Systems instance of ontostack is used to serve the lidar ontology. 
 
 ## Demo:
 - Input
