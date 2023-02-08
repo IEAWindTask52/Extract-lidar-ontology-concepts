@@ -26,9 +26,9 @@ The Ontology includes the lidar module design according to the OpenLidar Archite
 
 ### For whom
 The Ontology is meant as:
-A dictionary for new entrants to wind energy. A new entrant can get detailed information about different lidar components and how they relate to each other.
-A variable-definition reference for datasets for the OEMs delivering data to clients.
-An input for lidar and wind modelling simulations.
+- A dictionary for new entrants to wind energy. A new entrant can get detailed information about different lidar components and how they relate to each other.
+- A variable-definition reference for datasets for the OEMs delivering data to clients.
+- An input for lidar and wind modelling simulations.
  
 ## Related projects and concepts:
 
@@ -38,11 +38,11 @@ An input for lidar and wind modelling simulations.
 - Ontology: "Formal machine-readable specification of a conceptual model in which concepts, properties, relationships, functions, constraints and axioms are all explicitly defined" [1]
 
 ## Methodology:
-- [Google Sheets](https://docs.google.com/spreadsheets/d/1rC2bugsJzRpuINqbVKR7GO1xNHPvzUvrKEz-75MNdXY/edit#gid=1744776504): an excel sheet is used as input for the ontology. This format allows easy implementation and maintenance of the ontology
-- [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf): The data contained in the Google Sheet is transformed into a Resource Description Framework (RDF) format by using shee2rdf. RDF allows to digitise and handle knowledge organisation systems in a machine-readable format. 
-- ontostack: a DTU Wind and Energy Systems instance of ontostack is used to serve the lidar ontology.
+The methodology followed is based on the tools developed by [Fair Data Collective](https://www.linkedin.com/company/fair-data-collective/about/). More information about the tools used to create, mantain and deploy the lidar ontology can be found in [[2]](#important-links-and-references)[[3]](#important-links-and-references)[[4]](#important-links-and-references)
 
-sheet2rdf and ontostack have been developed by [Fair Data Collective](https://www.linkedin.com/company/fair-data-collective/about/).
+- [GoogleSheets](https://docs.google.com/spreadsheets/d/1rC2bugsJzRpuINqbVKR7GO1xNHPvzUvrKEz-75MNdXY/edit#gid=1744776504): An excel sheet is used as input for the ontology. This format allows easy implementation and maintenance of the ontology.
+- [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf): The data contained in the Google Sheet is transformed into a Resource Description Framework (RDF) format by using shee2rdf. RDF allows to digitise and handle knowledge organisation systems in a machine-readable format.
+- ontostack: a DTU Wind and Energy Systems instance of ontostack is used to serve the lidar ontology. 
 
 ## Demo:
 - Input
@@ -62,7 +62,11 @@ sheet2rdf and ontostack have been developed by [Fair Data Collective](https://ww
 - Update and maintenance
 
 ## Important Links and references
-[1] Patricia Harpring – Introduction to Controlled Vocabularies - ISBN-978-1-60606-026-1
+
+[1] Patricia Harpring – Introduction to Controlled Vocabularies - ISBN-978-1-60606-026-1<br>
+[2] https://github.com/DTUWindEnergy/NEAT-taxonomy<br>
+[3] https://github.com/nikokaoja/sheet2rdf<br>
+[4] https://github.com/IEA-Wind-Task-32/wind-lidar-ontology<br>
 
 ## Contributions
 Contributions are very welcome!
@@ -87,3 +91,4 @@ This work is licensed under **[XXX](XXX)**
 2) Write Readme.md as instruction [# 20% ]
 3) update license
 4) Find a host options github + binder / github + JupyterHub / github + ...
+5) Issue/pull request template [# 10%]
