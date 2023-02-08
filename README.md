@@ -1,6 +1,8 @@
 # Extract lidar ontology concepts
+This repository is part of the article...
 
 ## Project Description
+
 ### Introduction:
 
 An ontology defines a common vocabulary within a domain, providing a means to share information in the domain, and includes machine-interpretable definitions of fundamental concepts and the relations among them. To tackle the problems related to data digitalization, recently some global initiatives focussed on developing standardization tools. A global initiative project e-WindLidar focused on development of wind lidar community based tools and data standards, and publish a lidar data form to make them FAIR, i.e. Findable, Accessible, Interoperable and Reusable \cite{ref-Vasiljevi}. IEA Task 52 (former Task 32) bringing together researchers and industry stakeholders to collaborate on the standardization, research and development, and knowledge exchange of wind lidar. 
@@ -71,10 +73,10 @@ The methodology followed is based on the tools developed by [Fair Data Collectiv
 ## Contributions
 Contributions are very welcome!
 If you wish to:
-- Colaborate: please contact the authors
-- Seek for support: please contact the authors
+
 - [Add a new a concept to the IEA Wind Task 52 Wind Lidar Ontology](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/issues/new?assignees=&labels=documentation&template=add-a-concept-to-the-iea-wind-task52-wind-lidar-ontology.md&title=)
 - [Suggest an update in an existing concept of the IEA Wind Task52 Wind Lidar Ontology](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/issues/new?assignees=&labels=documentation&template=suggest-an-update-in-an-existing-concept-of-the-iea-wind-task52-wind-lidar-ontology.md&title=)
+- Seek for support: please contact the authors
 
 ## License
 This work is licensed under **[XXX](XXX)**
