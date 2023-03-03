@@ -43,7 +43,7 @@ The Ontology is meant as:
 The methodology followed is based on the tools developed by [Fair Data Collective](https://www.linkedin.com/company/fair-data-collective/about/). More information about the tools used to create, mantain and deploy the lidar ontology can be found in [[2]](#important-links-and-references)[[3]](#important-links-and-references)[[4]](#important-links-and-references)
 
 - [GoogleSheets](https://docs.google.com/spreadsheets/d/1rC2bugsJzRpuINqbVKR7GO1xNHPvzUvrKEz-75MNdXY/edit#gid=1744776504): An excel sheet is used as input for the ontology. This format allows easy implementation and maintenance of the ontology.
-- [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf): The data contained in the Google Sheet is transformed into a Resource Description Framework (RDF) format by using shee2rdf. RDF allows to digitise and handle knowledge organisation systems in a machine-readable format.
+- [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf): The data contained in the Google Sheet is transformed into a Resource Description Framework (RDF) format by using sheet2rdf. RDF allows to digitise and handle knowledge organisation systems in a machine-readable format.
 - [ontostack](https://github.com/fair-data-collective/sheet2rdf): a DTU Wind and Energy Systems instance of ontostack is used to serve the lidar ontology. 
 
 ## Demo:
