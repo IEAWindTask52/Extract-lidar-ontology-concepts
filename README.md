@@ -43,7 +43,7 @@ The Ontology is meant as:
 The methodology followed is based on the tools developed by [Fair Data Collective](https://www.linkedin.com/company/fair-data-collective/about/). More information about the tools used to create, mantain and deploy the lidar ontology can be found in [[2]](#important-links-and-references)[[3]](#important-links-and-references)[[4]](#important-links-and-references)
 
 - [GoogleSheets](https://docs.google.com/spreadsheets/d/1rC2bugsJzRpuINqbVKR7GO1xNHPvzUvrKEz-75MNdXY/edit#gid=1744776504): An excel sheet is used as input for the ontology. This format allows easy implementation and maintenance of the ontology.
-- [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf): The data contained in the Google Sheet is transformed into a Resource Description Framework (RDF) format by using shee2rdf. RDF allows to digitise and handle knowledge organisation systems in a machine-readable format.
+- [sheet2rdf](https://github.com/fair-data-collective/sheet2rdf): The data contained in the Google Sheet is transformed into a Resource Description Framework (RDF) format by using sheet2rdf. RDF allows to digitise and handle knowledge organisation systems in a machine-readable format.
 - [ontostack](https://github.com/fair-data-collective/sheet2rdf): a DTU Wind and Energy Systems instance of ontostack is used to serve the lidar ontology. 
 
 ## Demo:
@@ -80,9 +80,9 @@ If you wish to:
 - Participate in IEA Wind Task52 
 
 ## License
-This work is licensed under **[XXX](XXX)**
+This work is licensed under **[Creative Commons Zero v1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/legalcode)**
 
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
+[![License: CC0-1.0](https://img.shields.io/badge/License-CC0_1.0-lightgrey.svg)](http://creativecommons.org/publicdomain/zero/1.0/)
 
 ## Citing and Contact
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-1318-9677" href="https://orcid.org/0000-0003-1318-9677" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">Francisco Costa García</a></div>
