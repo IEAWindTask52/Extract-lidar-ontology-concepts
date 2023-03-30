@@ -85,13 +85,21 @@ def get_rdf_concept(path, lang, fmt):
     return concept
 
 def parseOntology(url, var_search_str, uri_search_str):
-    # script to parse all the variables on the Ontology website of DTU
-    # Input:
-    # url - the input url for accessing the ontology (see example)
-    # var_search_str - the variable search string in html format (can be identified from the structure of html)
-    # uri_search_str -  the uri search string in html format (search through the html developer site for span + class_)
-    # Output:
-    # onto_paths - a dataframe output with variable, url_path and uri path (definition)
+    """
+        script to parse all the variables on the Ontology website of DTU
+        Input:
+            url - the input url for accessing the ontology (see example)
+            var_search_str - the variable search string in html format (check the structure of html)
+            uri_search_str -  the uri search string in html format (check html structure for span + class_)
+        Output:
+            onto_paths - a dataframe output with variable, url_path and uri path (definition)
+        Example:
+            url = r"https://data.windenergy.dtu.dk/ontologies/view/ontolidar/en/index"
+            var_search_str = "ontolidar/en/page"
+            uri_search_str = "rest/v1/ontolidar/data?uri="
+            onto_paths = parseOntology(url,var_search_str, uri_search_str)
+    """
+
     import requests
     from bs4 import BeautifulSoup
     import pandas as pd
@@ -130,8 +138,6 @@ def parseOntology(url, var_search_str, uri_search_str):
 
     return onto_paths
 
-
-
 if __name__ == "__main__":
     from getConcept import get_json_concept, get_rdf_concept, parseOntology
 
@@ -139,15 +145,22 @@ if __name__ == "__main__":
     url = r"https://data.windenergy.dtu.dk/ontologies/view/ontolidar/en/index"
     var_search_str = "ontolidar/en/page"
     uri_search_str = "rest/v1/ontolidar/data?uri="
-    
     onto_paths = parseOntology(url,var_search_str, uri_search_str)
 
-    path = r'../Ontology_Concepts/VAD_da'
+    import requests
+    for p in onto_paths.uri_ttl:
+        r = requests.get(p)
+        open('ontology_concepts.ttl', 'wb').write(r.content)
+
+    # import the whole concept with main variables from json file
+    path = r'../fun/ontology_concepts.ttl'
     lang = "en"
     concept_json = get_json_concept(path, lang)
 
 
-    path = r'../Ontology_Concepts/vad.ttl'
+
+    # import the whole concept with main variables from turtle file
+    path = r'./fun/ontology_concepts.ttl'
     lang = "en"
     fmt = 'ttl'
     concept_rdf = get_rdf_concept(path, lang, fmt)
