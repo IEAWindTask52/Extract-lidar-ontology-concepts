@@ -36,12 +36,12 @@ Components:
             Preferred label: ''   # (*)
             Alternative label: '' # (*)
                     
-        Azimuth: 
-            Value:
-            Units: 
+        Azimuth angle: 
+            Value: 13.5 
+            Units: 'Degrees'
             Definition: ''                   # (%)
-            Preferred label: 'Azimtuh angle' # (*)
-            Alternative label: 'Azimuth'     # (*)
+            Preferred label: '' # (*)
+            Alternative label: ''     # (*)
         
         Focus distance: 
             Value: 
