@@ -9,67 +9,63 @@
 
 # DIRECTORY:------------------------------------------------------
 
-Main directory: '.' # Directory where your downloaded ontology concepts are stored
+Main directory: .   # Directory where your downloaded ontology concepts are stored
 
 # Lidar values. Modules and components parameters: ------------------------------------------------------
 
 Components:
-  Scanning strategy:
   #Scanner module: 
-    Scanner module:
-        Definition: ''        # (%)
-        Preferred label: ''   # (%)
-        Alternative label: '' # (%)
+  Scanner module:
+    Definition: ''            # (%)
+    Preferred label: ''       # (%)
+    Alternative label: ''     # (%)
 
-        Scanning sample rate: 
-            Value:     
-            Units: 
-            Definition: ''        # (%)
-            Preferred label: ''   # (%)
-            Alternative label: '' # (%)
+    Scanning sample rate:
+      Value:
+      Units:
+      Definition: ''              # (%)
+      Preferred label: ''         # (%)
+      Alternative label: ''       # (%)
 
         # Lidar range and pointing parameters 
-        Opening angle: 
-            Value: 
-            Units: 
-            Definition: ''        # (%)
-            Preferred label: ''   # (*)
-            Alternative label: '' # (*)
-                    
-        Azimuth angle: 
-            Value: 13.5 
-            Units: 'Degrees'
-            Definition: ''                   # (%)
-            Preferred label: '' # (*)
-            Alternative label: ''     # (*)
-        
-        Focus distance: 
-            Value: 
-            Units: 
-            Definition: ''
-            Preferred label: ''   # (*)
-            Alternative label: '' # (*)
+    Opening angle:
+      Value:
+      Units:
+      Definition: ''              # (%)
+      Preferred label: ''         # (*)
+      Alternative label: ''       # (*)
+    Azimuth angle:
+      Value: 13.5
+      Units: Degrees
+      Definition: The angle between the line of sight of the lidar and a reference
+        vector on the reference coordinate system. # (%)
+      Preferred label: ''       # (*)
+      Alternative label: ''           # (*)
+      Preferred Label: Azimuth angle
+      Alternative Label: Azimuth
+    Focus distance:
+      Value:
+      Units:
+      Definition: ''
+      Preferred label: ''         # (*)
+      Alternative label: ''       # (*)
 
 # Photonics module  
 
-    Photonics module:
-        Definition: ''          # (%)
-        Preferred label: ''     # (%)
-        Alternative label: ''   # (%)
-        
-        Optical amplifier:
-            Optical amplifier bandwidth: 
-            Optical amplifier noise figure:
-            Optical amplifier gain:
-            Power interval:        
-            Definition: ''          # (%)
-            Preferred label: ''     # (%)
-            Alternative label: ''   # (%)
-        
-        
-        Optical amplifier bandwidth:
-    
----
+  Photonics module:
+    Definition: ''              # (%)
+    Preferred label: ''         # (%)
+    Alternative label: ''       # (%)
+    Optical amplifier:
+      Optical amplifier bandwidth:
+      Optical amplifier noise figure:
+      Optical amplifier gain:
+      Power interval:
+      Definition: ''                # (%)
+      Preferred label: ''           # (%)
+      Alternative label: ''         # (%)
+    Optical amplifier bandwidth:
+
 # Device notes:
 Device:
   Manufacturer: ''        # (%)
@@ -81,4 +77,3 @@ Device:
   Alternative label: ''   # (%)
 
 
-      
