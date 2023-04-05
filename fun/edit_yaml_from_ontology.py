@@ -1,4 +1,4 @@
-def edit_yaml_from_ontology(file_name):
+def edit_yaml_from_ontology(file_name,Lidar_Dictionary):
     import ruamel.yaml
     import pdb
     # Use the package ruamel to edit the yaml file
