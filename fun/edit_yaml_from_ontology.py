@@ -1,5 +1,5 @@
 def edit_yaml_from_ontology(file_name):
-    import ruamel
+    import ruamel.yaml
     import pdb
     # Use the package ruamel to edit the yaml file
     pdb.set_trace()
