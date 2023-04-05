@@ -5,9 +5,8 @@ Created on Wed Apr  5 10:18:16 2023
 @author: fcosta
 """
 
-def edit_yaml_from_ontology(file_name,instances):
+def edit_yaml_from_ontology(file_name):
     # Use the package ruamel to edit the yaml file
-    pdb.set_trace()
     config, ind, bsi = ruamel.yaml.util.load_yaml_guess_indent(open(file_name))
     instances = config['Components']['Scanner module']['Azimuth angle']    
     
