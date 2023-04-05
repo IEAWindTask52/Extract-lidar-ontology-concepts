@@ -1,9 +1,14 @@
 def edit_yaml_from_ontology(file_name,Lidar_Dictionary,fields_edit_yaml):
     import ruamel.yaml
+    str_nestedfields = 'config'
+    for inf in range (len(nestedfields)):   
+        str_nestedfields+='{}'.format(nestedfields[inf])
+
+
     # Use the package ruamel to edit the yaml file    
     config, ind, bsi = ruamel.yaml.util.load_yaml_guess_indent(open(file_name))
     # Dictionary level where fields we want to change are located
-    instances        = eval(fields_edit_yaml)    
+    instances        = eval(str_nestedfields)    
     
     #Fields we want to change to the new values extracted from the ontology  
     instances['Definition']        = Lidar_Dictionary['Definition']   
