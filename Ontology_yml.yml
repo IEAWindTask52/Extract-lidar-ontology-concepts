@@ -35,14 +35,13 @@ Components:
       Preferred label: ''         # (*)
       Alternative label: ''       # (*)
     Azimuth angle:
-      Value: 13.5
+      Value: 321
       Units: Degrees
-      Definition: The angle between the line of sight of the lidar and a reference
-        vector on the reference coordinate system. # (%)
+      Definition: # (%)
       Preferred label: ''       # (*)
       Alternative label: ''           # (*)
-      Preferred Label: Azimuth angle
-      Alternative Label: Azimuth
+      Preferred Label: 
+      Alternative Label: 
     Focus distance:
       Value:
       Units:
