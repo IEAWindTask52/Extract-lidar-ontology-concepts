@@ -4,7 +4,7 @@ Created on Wed Apr  5 10:18:16 2023
 
 @author: fcosta
 """
-import pdb 
+
 def edit_yaml_from_ontology(file_name,instances):
     # Use the package ruamel to edit the yaml file
     pdb.set_trace()
