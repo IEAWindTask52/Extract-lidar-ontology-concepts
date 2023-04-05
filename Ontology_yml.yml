@@ -35,7 +35,7 @@ Components:
       Preferred label: ''         # (*)
       Alternative label: ''       # (*)
     Azimuth angle:
-      Value: 321
+      Value: 5465
       Units: Degrees
       Definition:  # (%)
       Preferred label: ''       # (*)
