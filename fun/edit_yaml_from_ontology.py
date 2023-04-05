@@ -1,4 +1,4 @@
-def edit_yaml_from_ontology2(file_name,Lidar_Dictionary,nestedfields,fields2change):
+def edit_yaml_from_ontology(file_name,Lidar_Dictionary,nestedfields,fields2change):
     import ruamel.yaml
     str_nestedfields = 'config'
     for inf0 in range (len(nestedfields)):   
