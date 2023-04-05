@@ -17,52 +17,52 @@ Components:
   #Scanner module: 
   Scanner module:
     Definition: ''            # (%)
-    Preferred label: ''       # (%)
-    Alternative label: ''     # (%)
+    Preferred Label: ''       # (%)
+    Alternative Label: ''     # (%)
 
     Scanning sample rate:
       Value:
       Units:
       Definition: ''              # (%)
-      Preferred label: ''         # (%)
-      Alternative label: ''       # (%)
+      Preferred Label: ''         # (%)
+      Alternative Label: ''       # (%)
 
         # Lidar range and pointing parameters 
     Opening angle:
       Value:
       Units:
       Definition: ''              # (%)
-      Preferred label: ''         # (*)
-      Alternative label: ''       # (*)
+      Preferred Label: ''         # (*)
+      Alternative Label: ''       # (*)
     Azimuth angle:
       Value: 1400000414
       Units: Degrees
       Definition: The angle between the line of sight of the lidar and a reference
         vector on the reference coordinate system. # (%)
-      Preferred Label:        # (*)
-      Alternative Label:      # (*)
+      Preferred Label: Azimuth angle # (*)
+      Alternative Label: Azimuth # (*)
 
     Focus distance:
       Value:
       Units:
       Definition: ''
-      Preferred label: ''         # (*)
-      Alternative label: ''       # (*)
+      Preferred Label: ''         # (*)
+      Alternative Label: ''       # (*)
 
 # Photonics module  
 
   Photonics module:
     Definition: ''              # (%)
-    Preferred label: ''         # (%)
-    Alternative label: ''       # (%)
+    Preferred Label: ''         # (%)
+    Alternative Label: ''       # (%)
     Optical amplifier:
       Optical amplifier bandwidth:
       Optical amplifier noise figure:
       Optical amplifier gain:
       Power interval:
       Definition: ''                # (%)
-      Preferred label: ''           # (%)
-      Alternative label: ''         # (%)
+      Preferred Label: ''           # (%)
+      Alternative Label: ''         # (%)
     Optical amplifier bandwidth:
 
 # Device notes:
@@ -72,7 +72,7 @@ Device:
   Technology: ''          # (%)
   Chassis number: ''      # (%)
   Definition: ''          # (%)
-  Preferred label: ''     # (%)
-  Alternative label: ''   # (%)
+  Preferred Label: ''     # (%)
+  Alternative Label: ''   # (%)
 
 
