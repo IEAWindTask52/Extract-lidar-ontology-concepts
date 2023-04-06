@@ -34,14 +34,12 @@ Components:
       Definition: ''              # (%)
       Preferred Label: ''         # (*)
       Alternative Label: ''       # (*)
-    
     Azimuth angle:
       Value: 45
       Units: Degrees
       Definition:  # (%)
       Preferred Label:  # (*)
       Alternative Label:  # (*)
-      
     Focus distance:
       Value:
       Units:
