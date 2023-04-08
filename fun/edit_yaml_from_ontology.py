@@ -1,10 +1,11 @@
 def edit_yaml_from_ontology(file_name,Lidar_Dictionary,nestedfields,fields2change):
     import ruamel.yaml
+    import pdb
     str_nestedfields = 'config'
     for inf0 in range (len(nestedfields)):   
         str_nestedfields+='{}'.format(nestedfields[inf0])
 
-
+    pdb.set_trace()
     # Use the package ruamel to edit the yaml file    
     config, ind, bsi = ruamel.yaml.util.load_yaml_guess_indent(open(file_name))
     # Dictionary level where fields we want to change are located
