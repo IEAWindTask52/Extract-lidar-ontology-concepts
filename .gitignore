@@ -1,2 +1,4 @@
 ./**/*.pyc
 ./fun/**/*.pyc
+./__pycache__/*.*
+fun/__pycache__
