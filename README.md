@@ -52,11 +52,12 @@ The methodology followed is based on the tools developed by [Fair Data Collectiv
 - Main Script:
     - Extract data from Ontology
 - Background
-    - functions getLabel / getConcept
+    - functions `getLabel` / `getConcept` and `edit_ymal_from_ontology`
 - Output:
     - Current Parameters
     - Custom options
     - Future Parameters
+    - Updated lidar simulator input file
 
 ## Outlook
 

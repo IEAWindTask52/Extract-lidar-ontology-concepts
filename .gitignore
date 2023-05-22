@@ -2,3 +2,26 @@
 ./fun/**/*.pyc
 ./__pycache__/*.*
 fun/__pycache__
+*.pyc
+
+# tex files to be ignored
+./**/*.aux
+./**/*.bbl
+./**/*.blg
+./**/*.fdb_latexmk
+./**/*.fls
+./**/*.pdf
+./**/*.synctex.gz
+./**/*.out
+./**/*.log
+./**/*.bib
+./**/*.sty
+
+# ignore files
+./**/*.rdf
+./**/*.ttl
+./**/*.nt
+
+
+
+
