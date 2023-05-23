@@ -1,3 +1,24 @@
 ./**/*.pyc
 ./fun/**/*.pyc
-Ontology_yml.yml
+
+./__pycache__/*.*
+fun/__pycache__
+
+# tex files to be ignored
+./**/*.aux
+./**/*.bbl
+./**/*.blg
+./**/*.fdb_latexmk
+./**/*.fls
+./**/*.pdf
+./**/*.synctex.gz
+./**/*.out
+./**/*.log
+./**/*.bib
+./**/*.sty
+
+# ignore files
+./**/*.rdf
+./**/*.ttl
+./**/*.nt
+

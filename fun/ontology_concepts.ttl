@@ -1,0 +1,19 @@
+@prefix ontolidar: <http://vocab.ieawindtask32.org/wind-lidar-ontology/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+ontolidar:
+  skos:prefLabel "IEA Wind Task 32 Wind Lidar Ontology"@en ;
+  a skos:ConceptScheme .
+
+ontolidar:Zephir
+  skos:prefLabel "Zephir"@cn, "Zephir"@es, "Zephir"@en, "Zephir"@de, "Lidar 'Zephir'"@it ;
+  a skos:Concept ;
+  skos:narrower ontolidar:Zxtm .
+
+ontolidar:Zxtm
+  skos:definition "Lidar de góndola producido por ZX lidars."@es, "由ZX激光雷达公司制造的机舱安装激光雷达。"@cn, "Nacelle mounted lidar manufactured by ZX lidars."@en, "Lidar per navicella prodotto da ZX lidars."@it ;
+  skos:prefLabel "Lidar 'ZXTM'"@it, "ZXTM"@cn, "ZXTM"@es, "ZXTM"@en, "ZXTM"@de ;
+  a skos:Concept ;
+  skos:broader ontolidar:Zephir ;
+  skos:inScheme ontolidar: .
+
