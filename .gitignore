@@ -1,5 +1,6 @@
 ./**/*.pyc
 ./fun/**/*.pyc
+
 ./__pycache__/*.*
 fun/__pycache__
 
@@ -20,7 +21,4 @@ fun/__pycache__
 ./**/*.rdf
 ./**/*.ttl
 ./**/*.nt
-
-
-
 
