@@ -62,7 +62,7 @@ The methodology followed is based on the tools developed by [Fair Data Collectiv
 ## Outlook
 
 - Link to existing wind-related ontologies or [digital data standards](https://github.com/IEA-Task-43/digital_wra_data_standard)
-- Update and maintenance
+- Updating and maintenance will be carried out at least once per year. In addition, the authors will address possible external contributions and add/edit the ontology accordingly if necessary.
 
 ## Important Links and references
 
