@@ -94,7 +94,7 @@ This work is licensed under **[Creative Commons Zero v1.0 Universal](https://cre
 # To Dos: 
 - [ ] Show images in jupyter notebook
 - [ ] Write Readme.md as instruction [### 60%]
-- [ ] update license
+- [x] update license
 - [ ] Find a host options github + binder / github + JupyterHub / github + ...
 - [ ] Issue/pull request template [#### 80%]
 - [ ] Small intro
