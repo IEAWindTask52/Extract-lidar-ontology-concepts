@@ -90,14 +90,3 @@ This work is licensed under **[Creative Commons Zero v1.0 Universal](https://cre
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0003-1318-9677" href="https://orcid.org/0000-0003-1318-9677" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">Francisco Costa García</a></div>
 
 <div itemscope itemtype="https://schema.org/Person"><a itemprop="sameAs" content="https://orcid.org/0000-0002-8397-7348" href="https://orcid.org/0000-0002-8397-7348" target="orcid.widget" rel="me noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">Ashim Giyanani</a></div>
-
-
-# To Dos: 
-- [ ] Show images in jupyter notebook
-- [ ] Write Readme.md as instruction [### 60%]
-- [x] update license
-- [ ] Find a host options github + binder / github + JupyterHub / github + ...
-- [ ] Issue/pull request template [#### 80%]
-- [ ] Small intro
-- [ ] Demo section
-- [ ] Outlook section 
