@@ -72,7 +72,7 @@ The methodology followed is based on the tools developed by [Fair Data Collectiv
 [4] https://github.com/IEA-Wind-Task-32/wind-lidar-ontology<br>
 
 ## Contributions
-Contributions are very welcome!
+The Lidar Ontology will continue to incorporate new ideas/concepts and keep them up to date to be a practical tool for lidar community. Any suggestion or comment, particularly from lidar researchers, developers, manufacturer, users, etc. are very welcome!
 If you wish to:
 
 - [Add a new a concept to the IEA Wind Task 52 Wind Lidar Ontology](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/issues/new?assignees=&labels=documentation&template=add-a-concept-to-the-iea-wind-task52-wind-lidar-ontology.md&title=)
