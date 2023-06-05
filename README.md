@@ -52,7 +52,7 @@ The methodology followed is based on the tools developed by [Fair Data Collectiv
 - Main Script:
     - [Extract data from Ontology](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/blob/main/Extract_Data_From_Ontology.ipynb)
 - Background
-    - functions `[getLabel]` / `[getConcept]` and `[edit_ymal_from_ontology](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/blob/main/fun/edit_yaml_from_ontology.py)`
+    - functions `[getLabel]` / `[getConcept]` and [`edit_ymal_from_ontology`](https://github.com/PacoCosta/Extract-lidar-ontology-concepts/blob/main/fun/edit_yaml_from_ontology.py)
 - Output:
     - Current Parameters
     - Custom options
