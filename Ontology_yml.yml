@@ -37,10 +37,9 @@ Components:
     Velocity azimuth display:
       Period:          #[s]
       Opening angle:     #[°]
-      Definition: The angle between the line of sight of the lidar and a reference
-        vector on the reference coordinate system. # (%)
-      Preferred Label: Azimuth angle # (*)
-      Alternative Label: Azimuth # (*)
+      Definition: # (%)
+      Preferred Label: # (*)
+      Alternative Label:  # (*)
     Focus distance:
       Value:
       Units:
