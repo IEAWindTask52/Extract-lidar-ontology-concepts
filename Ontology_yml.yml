@@ -34,11 +34,11 @@ Components:
       Definition: ''              # (%)
       Preferred Label: ''         # (*)
       Alternative Label: ''       # (*)
-    Azimuth angle:
-      Value:          #[degrees]
-      Units: Degrees
-      Definition:  # (%)
-      Preferred Label:  # (*)
+    Velocity azimuth display:
+      Period:          #[s]
+      Opening angle:     #[°]
+      Definition: # (%)
+      Preferred Label: # (*)
       Alternative Label:  # (*)
     Focus distance:
       Value:
