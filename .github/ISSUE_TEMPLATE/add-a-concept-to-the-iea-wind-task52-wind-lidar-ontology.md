@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-_The information provided here will be used to create a glossary entry in the [IEA Wind Task 32 Glossary of Terms](http://data.windenergy.dtu.dk/ontologies/view/IEATask32Glossary/en/). Please fill in all of the text marked "..."._
+_The information provided here will be used to create a glossary entry in the [IEA Wind Task 32 Wind Lidar Ontology]](https://data.windenergy.dtu.dk/ontologies/view/ontolidar/en/). Please fill in all of the text marked "..."._
 
 # Before you start
 - [ ] There is no similar existing entry in the Task 32 lidar glossary.
@@ -36,7 +36,7 @@ _A parent entry. e.g., "measurement principles". This helps establish semantic m
 - ...
 
 # What happens next?
-Approved entries will be entered into https://github.com/IEA-Wind-Task-32/wind-lidar-glossary and then copied to http://data.windenergy.dtu.dk/ontologies/view/IEATask32Glossary/en/.
+The new concept will be submitted for its consideration and approved entries will be entered into [IEA Wind Task 32 Wind Lidar Ontology](https://data.windenergy.dtu.dk/ontologies/view/ontolidar/en/).
 
 # For interal use only
 Please do not change any of the following text. This will be used to help process this issue.
