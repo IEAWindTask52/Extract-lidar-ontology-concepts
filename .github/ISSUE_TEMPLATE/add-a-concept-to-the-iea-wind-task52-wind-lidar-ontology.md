@@ -7,7 +7,7 @@ assignees: ''
 
 ---
 
-_The information provided here will be used to create a glossary entry in the [IEA Wind Task 32 Wind Lidar Ontology]](https://data.windenergy.dtu.dk/ontologies/view/ontolidar/en/). Please fill in all of the text marked "..."._
+_The information provided here will be used to create a glossary entry in the [IEA Wind Task 32 Wind Lidar Ontology](https://data.windenergy.dtu.dk/ontologies/view/ontolidar/en/). Please fill in all of the text marked "..."._
 
 # Before you start
 - [ ] There is no similar existing entry in the Task 32 lidar glossary.
