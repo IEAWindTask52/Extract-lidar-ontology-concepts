@@ -9,7 +9,7 @@
 
 # DIRECTORY:------------------------------------------------------
 
-Main directory: .   # Directory where your downloaded ontology concepts are stored
+Main directory: '\.'   # Directory where your downloaded ontology concepts are stored
 
 # Lidar values. Modules and components parameters: ------------------------------------------------------
 
@@ -35,14 +35,11 @@ Components:
       Preferred Label: ''         # (*)
       Alternative Label: ''       # (*)
     Velocity azimuth display:
-      Period:          #[s]
-      Opening angle:     #[°]
-      Definition: VAD is a method of analyzing data from a complete conical scan whereby
-        many closely spaced azimuthal points may be sampled by the lidar, and the
-        data are used to estimate the wind speed at each height using a statistical
-        fitting method. # (%)
-      Preferred Label: Velocity-azimuth display # (*)
-      Alternative Label: VAD # (*)
+      Period:             # [s]
+      Opening angle:      # [°]
+      Definition:         # (*)
+      Preferred Label:    # (*)
+      Alternative Label:  # (*)
     Focus distance:
       Value:
       Units:
