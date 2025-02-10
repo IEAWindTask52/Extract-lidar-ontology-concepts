@@ -1,5 +1,5 @@
 # Extract lidar ontology concepts
-This repository is part of the article...
+This repository is part of the article _An Ontology for Describing Wind Lidar Concepts_, which is available at [https://www.mdpi.com/2072-4292/16/11/1982](https://www.mdpi.com/2072-4292/16/11/1982)
 
 ## Project Description
 
